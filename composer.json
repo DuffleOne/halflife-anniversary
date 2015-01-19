@@ -1,0 +1,15 @@
+{
+	"require": {
+		"nesbot/Carbon": "*",
+		"symfony/var-dumper": "*",
+		"illuminate/support": "*",
+		"league/climate": "~2.6"
+	},
+    "require-dev": {
+        "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {"psr-4": {"": "src"}}
+}
