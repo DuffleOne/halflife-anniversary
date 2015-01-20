@@ -17,6 +17,6 @@ class CalculatorSpec extends ObjectBehavior
     {
     	$this->calculate(Carbon::createFromFormat('d/m/Y', '08/03/1993'), Carbon::createFromFormat('d/m/Y', '04/09/2004'));
 
-    	$this->getOutput()->shouldBe('03/03/2016');
+    	$this->getOutput()->shouldBe('3rd March 2016');
     }
 }

@@ -14,7 +14,7 @@ class Calculator
 
     	$birthDate->addDays($ageInDays);
 
-    	$this->output = $birthDate->format('d/m/Y');
+    	$this->output = $birthDate->format('jS F Y');
     }
 
     public function getOutput()
